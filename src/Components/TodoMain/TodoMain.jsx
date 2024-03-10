@@ -1,4 +1,3 @@
-import { useState } from 'react'
 import { useSelector } from 'react-redux'
 import { CONSTANTS } from '../../Constants/Constants'
 import { useFiltredTodos } from '../../Hooks/useFiltredTodos'

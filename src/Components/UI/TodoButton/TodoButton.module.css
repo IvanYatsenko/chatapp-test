@@ -1,0 +1,7 @@
+.todoBtn {
+  background-color: transparent;
+  border: 2px solid grey;
+  border-radius: 8px;
+  padding: 5px 10px;
+  height: 30px;
+}

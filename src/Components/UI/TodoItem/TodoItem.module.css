@@ -1,0 +1,26 @@
+.todoItem {
+  width: 100%;
+  padding: 10px 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  align-items: baseline;
+  justify-content: space-between;
+  border: 2px solid grey;
+  border-radius: 8px;
+}
+@media (min-width: 648px) {
+  .todoItem {
+    flex-direction: row;
+    align-items: center;
+  }
+}
+.todoItemComplete {
+  background-color: lightgreen;
+}
+.todoItemBtns {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  gap: 1rem;
+}

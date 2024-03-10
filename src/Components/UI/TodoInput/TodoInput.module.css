@@ -1,0 +1,7 @@
+.todoInput {
+  padding: 5px 10px;
+  border: 2px solid grey;
+  border-radius: 8px;
+  height: 30px;
+  min-width: 250px;
+}
